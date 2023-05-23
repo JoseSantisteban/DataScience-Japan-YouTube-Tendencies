@@ -1,27 +1,24 @@
 <div style="width: 100%; clear: both;">
 <div style="float: left; width: 50%;">
-<img src="https://estudiaperu.pe/wp-content/uploads/2021/04/UPC-carreras-para-gente-que-trabaja.png", align="left">
+<img src="https://estudiaperu.pe/wp-content/uploads/2021/04/UPC-carreras-para-gente-que-trabaja.png", align="left" style="height: 150px; width:300px;>
 </div>
+
 <div style="float: right; width: 50%;">
 <p style="margin: 0; padding-top: 22px; text-align:right;">Curso: Administración de la información. </p>
 <p style="margin: 0; text-align:right;">2022 · Carrera de Ciencias de la Computación. Trabajo Final del Curso</p>
-<p style="margin: 0; text-align:right;">Prof.: <b>Reyes Silva, Patricia Daniela</b></p>
 <p style="margin: 0; text-align:right; padding-button: 100px;">Alumno: <b>José Mauricio Santisteban Cerna</b> - <a href="">josesantisteban062@gmail.com</a></p>
 </div>
 </div>
 <div style="width:100%;">&nbsp;</div>
 <center><h1>Data Science: Análisis de la tendencia de los videos de Youtube en Japón</h1></center>
 #Contenidos
-1. [Objetivos del proyecto](#data1)
 
-2. [Caso de Análisis](#data2)
-
-3. [Conjunto de Datos](#data3)
-    
-4. [Análisis de los datos](#data4)
-5.  [Código](#data5)
-
-6. [Conclusiones](#data6)
+- [1. Objetivos del proyecto ](#1-objetivos-del-proyecto-)
+- [2. Caso de Análisis ](#2-caso-de-análisis-)
+- [3. Conjunto de Datos ](#3-conjunto-de-datos-)
+- [4. Análisis de los datos ](#4-análisis-de-los-datos-)
+- [5. Código ](#5-código-)
+- [6. Conclusiones ](#6-conclusiones-)
 
 ## 1. Objetivos del proyecto <a name="data1"></a>
 El presente trabajo detalla el desarrollo de un proyecto de analítica mediante un análisis exploratorio de datos a fin de crear nuevo conocimiento y resolver problemas de modelación de datos. Para ello, se ha hecho uso de un conjunto de datos sin procesar sobre estadísticas de videos de la plataforma de streaming YouTube Japón cuya información servirá para hallar respuesta a interrogantes propuestas.
