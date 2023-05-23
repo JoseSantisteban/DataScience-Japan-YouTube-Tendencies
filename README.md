@@ -99,11 +99,13 @@ JPvideos.head()
 </table> 
 Con la función describe() se visualiza la distribución de las variables numéricas dentro del dataset original, así como la media, la media, la desviación estándar y los percentiles.
 Mientras que con la función info() observamos la distribución de los tipos de datos que contiene cada columna, así como la cantidad total de entradas y el número de datos no vacíos. Este último servirá para el preprocesamiento de los datos.
+
 ````python 
 JPvideos.info()
 #las columnas con más datos faltantes son 'trending_date' y 'description'
 #hay varias columnas con cerca de 1.2k datos faltantes que pueden ser obviados o eliminados
 ````
+
 ````python
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 21718 entries, 0 to 21717
