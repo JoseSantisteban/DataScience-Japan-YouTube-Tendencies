@@ -149,7 +149,7 @@ Asimismo, con la función pairplot de la libreria seaborn podemos tener un vista
 ````python
 sns.pairplot(JPvideos)
 ````
-<img src="\img\pairplot.png" style="height: 800px; width:700px;"/>
+<img src="/img/pairplot.png" style="height: 800px; width:700px;"/>
 
 Con la comprensión de los datos observados en la sección anterior, podemos proceder a la fase de preprocesamiento de los mismos. 
 
@@ -241,7 +241,7 @@ Datos atípicos en dislikes relacionándolos con la columna category_id:
 plt.figure(figsize=(15, 15))
 sns.boxplot(x='category_id',y='dislikes',data=new_df,palette='winter')
 ````
-<img src="\img\atypic.png" style="height: 800px; width:900px;"/>
+<img src="/img/atypic.png" style="height: 800px; width:900px;"/>
 De esta gráfica podemos observar la enorme cantidad de datos anómalos presentes en los datos necesarios para el análisis. No se puede observar ni el rango de los datos ni datos vitales como la mediana de los datos. Por ello, procedemos a cambiar los datos anómalos mediante la técnica de flooring y capping. Esta es una técnica de tratamiento para datos atípicos, a través de la cual se reemplazan los datos atípicos que exceden un máximo teórico por este valor (capping) o cambiando los datos menores a un mínimo teórico por este valor (flooring), utilizando los cuartiles reales de cada conjunto de datos.
 
 Reemplazamos outliers en dislikes e imprimimos los nuevos datos.
@@ -261,41 +261,41 @@ plt.figure(figsize=(15, 15))
 sns.boxplot(x='category_id',y='dislikes',data=new_df,palette='winter')
 ````
 <img
-src="\img\boxfigure.png" style="height: 800px; width:900px;"/>
+src="/img/boxfigure.png" style="height: 800px; width:900px;"/>
 
 Ahora que los datos están completos y mejor distribuídos, se pueden procesar para resolver las dudas de no modelamiento planteadas.
 
 **Pregunta 1: ¿Qué categorías de videos son las de mayor tendencia?**
 <img
-src="\img\p1.png" style="height: 800px; width:900px;"/>
+src="/img/p1.png" style="height: 800px; width:900px;"/>
 De acuerdo con el gráfico, determinamos que las categorías con más videos en tendencia son: Entretenimiento, Personas y blogs, Deportes, Noticias y políticas, y Música.
 
 **Pregunta 2: ¿Qué categorías de videos son los que más gustan? ¿Y las que menos gustan?**
 <img
-src="\img\p2.png" style="height: 900px; width:900px;"/>
+src="/img/p2.png" style="height: 900px; width:900px;"/>
 De acuerdo con las gráficas, los videos que tienen mayor cantidad de likes son: Entretenimiento, Música y Personas y blogs.
 Y los que tienen mayor cantidad de dislikes son: Entretenimiento, Personas y blogs, y Deportes.
 
 **Pregunta 3:¿Qué categorías de videos tienen la mejor proporción (ratio) de “Me gusta” / “No me gusta”?**
 <img
-src="\img\p3.png" style="height: 500px; width:900px;"/>
+src="/img/p3.png" style="height: 500px; width:900px;"/>
 De acuerdo con la gráfica, la mejor categoría con mejor proporción entre likes y dislikes es Mascotas y animales, con más de 30 likes por cada dislike. Después le siguen Música, Films y animación, y Gaming.
 
 **Pregunta 4:¿Qué categorías de videos tienen la mejor proporción (ratio) de “Vistas” / “Comentarios”?**
 <img
-src="\img\p4.png" style="height: 500px; width:900px;"/>
+src="/img/p4.png" style="height: 500px; width:900px;"/>
 De acuerdo con la gráfica, la mejor categoría con mejor proporción entre vistas y comentarios es Deportes, con más de 500 vistas por cada comentario. Después le siguen Autos y vehículos, Films y animación.
 
 
 **Pregunta 5:¿Cómo ha cambiado el volumen de los videos en tendencia a lo largo del tiempo?**
 <img
-src="\img\p5.png" style="height: 500px; width:900px;"/>
+src="/img/p5.png" style="height: 500px; width:900px;"/>
 De acuerdo con la gráfica, se puede ver que hay más variedad de videos en tendencia entre los meses de febrero hasta mayo.
 
 
 **Pregunta 6: ¿Qué canales de YouTube son tendencia más frecuentemente? ¿Y cuáles con menos frecuencia?**
 <img
-src="\img\p6.png" style="height: 500px; width:900px;"/>
+src="/img/p6.png" style="height: 500px; width:900px;"/>
 De acuerdo con nuestra información, podemos observar que los 5 primeros canales sobrepasan los 80 videos en tendencia. Donde el primer canal es un canal de noticias y el resto son creadores de contenido independientes.
 En el caso de los últimos canales, más de mil canales tienen solo un video, por lo que en la gráfica solo pusimos 4 canales aleatorios.
 
@@ -316,7 +316,7 @@ ax.axis('on');
 ax.set_title('views per State', fontdict={'fontsize':'25','fontweight':'3'})
 ````
 <img
-src="\img\views.png" style="height: 500px; width:900px;"/>
+src="/img/views.png" style="height: 500px; width:900px;"/>
 Likes por prefectura
 ````python
 fig, ax = plt.subplots(figsize=(10,12))
@@ -325,7 +325,7 @@ ax.axis('on');
 ax.set_title('likes per State', fontdict={'fontsize':'25','fontweight':'3'})
 ````
 <img
-src="\img\likes.png" style="height: 500px; width:900px;"/>
+src="/img/likes.png" style="height: 500px; width:900px;"/>
 Dislikes por prefectura
 ````python
 fig, ax = plt.subplots(figsize=(10,12))
@@ -334,7 +334,7 @@ ax.axis('on');
 ax.set_title('dislikes per State', fontdict={'fontsize':'25','fontweight':'3'})
 ````
 <img
-src="\img\dislikes.png" style="height: 500px; width:900px;"/>
+src="/img/dislikes.png" style="height: 500px; width:900px;"/>
 En cuanto a la distribución de las vistas, es observable que la tendencia general es que la mayoría de los videos provenientes de ciertos estados no sobrepasan las 200 mil vistas, ubicándose las más altas en las prefecturas ubicadas en el sur: podría estimarse que se trata de Kochi y Mie (hasta 500 mil vistas).
 Con respecto a los likes, la distribución representa que hay poca recepción positiva de los videos provenientes de la mayoría de prefecturas, pues no sobrepasan los 2000 ‘me gusta’. Los valores máximos se localizan en Aomori, Akita y Aichi (más de 7000).
 En referente a los dislikes, la distribución es similar para casi todas las prefecturas, entre 200 y 100 ‘no me gusta’. Hay un máximo de 500 dislikes en Kochi, y una de 400 en Mie. Aunque los videos en general no reciban tantos likes, la cantidad de ‘no me gusta’ se vuelve insignificante en comparación, resultando que se pueda inferir que los videos provenientes de japón tienen una acogida y aprobación apropiada.
