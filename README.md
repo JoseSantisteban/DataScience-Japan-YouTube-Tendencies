@@ -11,14 +11,15 @@
 </div>
 <div style="width:100%;">&nbsp;</div>
 <center><h1>Data Science: Análisis de la tendencia de los videos de Youtube en Japón</h1></center>
-#Contenidos
+# Contenidos
 
-- [1. Objetivos del proyecto ](#1-objetivos-del-proyecto-)
-- [2. Caso de Análisis ](#2-caso-de-análisis-)
-- [3. Conjunto de Datos ](#3-conjunto-de-datos-)
-- [4. Análisis de los datos ](#4-análisis-de-los-datos-)
-- [5. Código ](#5-código-)
-- [6. Conclusiones ](#6-conclusiones-)
+- [Contenidos](#contenidos)
+  - [1. Objetivos del proyecto ](#1-objetivos-del-proyecto-)
+  - [2. Caso de Análisis ](#2-caso-de-análisis-)
+  - [3. Conjunto de Datos ](#3-conjunto-de-datos-)
+  - [4. Análisis de los datos ](#4-análisis-de-los-datos-)
+  - [5. Código ](#5-código-)
+  - [6. Conclusiones ](#6-conclusiones-)
 
 ## 1. Objetivos del proyecto <a name="data1"></a>
 El presente trabajo detalla el desarrollo de un proyecto de analítica mediante un análisis exploratorio de datos a fin de crear nuevo conocimiento y resolver problemas de modelación de datos. Para ello, se ha hecho uso de un conjunto de datos sin procesar sobre estadísticas de videos de la plataforma de streaming YouTube Japón cuya información servirá para hallar respuesta a interrogantes propuestas.
