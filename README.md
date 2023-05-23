@@ -133,10 +133,12 @@ Data columns (total 20 columns):
 dtypes: float64(7), object(13)
 memory usage: 3.3+ MB
 ````
+
 Observamos la distribución de las columnas para poder referenciarlas en el posterior tratamiento y limpieza de datos
 ````python
 JPvideos.columns
 ````
+
 ````python
 Index(['video_id', 'trending_date', 'title', 'channel_title', 'category_id',
        'publish_time', 'tags', 'views', 'likes', 'dislikes', 'comment_count',
@@ -146,6 +148,7 @@ Index(['video_id', 'trending_date', 'title', 'channel_title', 'category_id',
       dtype='object')
 ````
 Asimismo, con la función pairplot de la libreria seaborn podemos tener un vistazo inicial a la correlación entre las distintas columnas de datos numéricos. En primera instancia, no se observa relación directa entre ninguna de las variables entre sí que sean relevantes para el análisis solicitado.
+
 ````python
 sns.pairplot(JPvideos)
 ````
